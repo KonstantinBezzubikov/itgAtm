@@ -1,0 +1,605 @@
+00:21:52,721 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:21:52,730 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:21:52,745 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:21:52,745 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:21:54,857 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:25:54,885 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:25:54,890 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+00:25:54,901 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:25:54,902 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+00:25:57,003 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:25:57,089 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+00:25:57,090 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+00:25:57,091 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:25:57,092 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+00:25:59,120 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+00:25:59,141 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+00:25:59,142 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+00:25:59,143 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:25:59,143 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+00:26:01,159 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+00:26:01,179 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+00:26:01,180 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+00:26:01,181 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:26:01,181 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+00:26:03,202 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+00:26:03,221 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+00:26:03,221 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:26:03,235 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:26:03,235 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:26:05,253 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+00:43:41,548 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:43:41,551 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+00:43:41,566 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:43:41,567 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+00:43:43,666 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:43:43,736 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+00:43:43,737 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+00:43:43,738 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:43:43,739 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+00:43:45,757 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+00:43:45,782 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+00:43:45,783 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+00:43:45,784 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:43:45,784 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+00:43:47,796 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+00:43:47,814 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+00:43:47,814 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+00:43:47,815 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:43:47,815 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+00:43:49,825 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+00:43:49,845 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+00:43:49,845 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:43:49,865 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:43:49,865 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:43:51,872 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+00:44:11,522 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:44:11,525 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+00:44:11,534 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:44:11,534 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+00:44:11,855 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+00:44:11,856 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+00:44:11,856 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:44:11,919 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+00:44:11,920 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+00:44:11,921 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:44:11,922 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+00:44:11,931 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+00:44:11,931 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+00:44:11,931 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+00:44:11,949 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+00:44:11,950 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+00:44:11,950 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:44:11,950 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+00:44:11,957 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+00:44:11,958 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+00:44:11,958 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+00:44:11,983 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+00:44:11,986 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+00:44:11,988 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:44:11,989 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+00:44:12,000 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+00:44:12,001 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+00:44:12,001 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+00:44:12,052 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+00:44:12,057 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:44:12,116 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:44:12,116 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:44:12,150 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+00:44:12,150 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+00:44:12,150 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+00:53:20,253 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:53:20,257 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+00:53:20,266 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:53:20,266 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+00:53:20,614 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+00:53:20,614 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+00:53:20,614 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:53:20,671 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+00:53:20,672 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+00:53:20,672 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:53:20,672 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+00:53:20,694 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+00:53:20,695 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+00:53:20,695 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+00:53:20,716 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+00:53:20,717 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+00:53:20,719 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:53:20,719 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+00:53:20,729 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+00:53:20,730 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+00:53:20,730 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+00:53:20,760 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+00:53:20,762 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+00:53:20,763 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:53:20,764 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+00:53:20,775 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+00:53:20,775 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+00:53:20,776 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+00:53:20,812 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+00:53:20,819 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:53:20,846 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:53:20,847 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:53:20,870 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+00:53:20,871 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+00:53:20,874 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+00:56:58,406 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+00:56:58,409 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+00:56:58,417 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:56:58,417 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+00:56:58,726 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+00:56:58,726 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+00:56:58,726 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+00:56:58,811 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+00:56:58,812 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+00:56:58,814 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:56:58,815 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+00:56:58,825 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+00:56:58,825 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+00:56:58,826 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+00:56:58,850 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+00:56:58,851 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+00:56:58,852 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:56:58,852 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+00:56:58,860 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+00:56:58,861 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+00:56:58,861 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+00:56:58,889 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+00:56:58,890 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+00:56:58,891 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+00:56:58,891 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+00:56:58,904 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+00:56:58,904 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+00:56:58,904 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+00:56:58,956 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+00:56:58,958 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+00:56:58,991 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+00:56:58,991 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+00:56:59,000 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+00:56:59,001 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+00:56:59,001 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+01:04:38,473 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+01:04:38,481 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+01:04:38,491 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:04:38,491 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+01:04:38,775 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 9
+01:04:38,778 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+01:04:38,779 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+01:04:38,779 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+01:04:38,840 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+01:04:38,841 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+01:04:38,842 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:04:38,843 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+01:04:38,847 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 9
+01:04:38,849 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+01:04:38,850 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+01:04:38,850 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+01:04:38,879 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+01:04:38,880 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+01:04:38,880 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:04:38,881 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+01:04:38,882 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+01:04:38,884 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+01:04:38,884 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+01:04:38,885 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+01:04:38,905 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+01:04:38,906 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+01:04:38,908 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:04:38,909 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+01:04:38,911 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 9
+01:04:38,912 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+01:04:38,913 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+01:04:38,913 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+01:04:38,933 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+01:04:38,934 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+01:04:38,948 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+01:04:38,948 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+01:04:38,958 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+01:04:38,959 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+01:04:38,959 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+01:08:50,883 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+01:08:50,885 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+01:08:50,896 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:08:50,897 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+01:08:51,155 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 9
+01:08:51,157 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+01:08:51,158 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+01:08:51,158 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+01:08:51,213 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+01:08:51,214 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+01:08:51,215 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:08:51,215 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+01:08:51,217 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 9
+01:08:51,219 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+01:08:51,219 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+01:08:51,219 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+01:08:51,243 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+01:08:51,244 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+01:08:51,245 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:08:51,245 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+01:08:51,247 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+01:08:51,248 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+01:08:51,249 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+01:08:51,249 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+01:08:51,273 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+01:08:51,274 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+01:08:51,275 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:08:51,276 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+01:08:51,277 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 9
+01:08:51,278 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+01:08:51,279 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+01:08:51,279 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+01:08:51,306 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+01:08:51,307 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+01:08:51,322 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+01:08:51,323 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+01:08:51,326 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result of get_acq_fee_amount2: 20
+01:08:51,327 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+01:08:51,328 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+01:08:51,328 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 20
+01:15:36,605 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 
+01:15:36,614 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+01:15:36,657 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:15:36,658 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+01:15:37,389 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 9
+01:15:37,395 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+01:15:37,396 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+01:15:37,396 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+01:15:37,536 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 
+01:15:37,546 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+01:15:37,548 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:15:37,549 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+01:15:37,552 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 9
+01:15:37,554 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+01:15:37,555 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+01:15:37,556 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+01:15:37,597 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 
+01:15:37,598 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+01:15:37,600 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:15:37,600 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+01:15:37,602 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+01:15:37,604 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+01:15:37,604 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+01:15:37,604 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+01:15:37,650 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 
+01:15:37,653 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+01:15:37,659 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:15:37,660 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+01:15:37,662 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 9
+01:15:37,663 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+01:15:37,664 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+01:15:37,664 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+01:15:37,707 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 
+01:15:37,709 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+01:15:37,738 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+01:15:37,738 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+01:15:37,745 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result of get_acq_fee_amount2: 20
+01:15:37,749 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+01:15:37,749 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+01:15:37,749 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 20
+01:16:35,939 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+01:16:35,951 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+01:16:35,992 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:16:35,995 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+01:16:36,580 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 9
+01:16:36,583 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+01:16:36,583 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+01:16:36,584 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+01:16:36,728 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+01:16:36,730 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+01:16:36,731 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:16:36,732 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+01:16:36,737 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+01:16:36,740 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+01:16:36,740 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+01:16:36,742 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+01:16:36,797 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+01:16:36,797 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+01:16:36,800 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:16:36,800 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+01:16:36,802 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+01:16:36,804 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+01:16:36,805 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+01:16:36,806 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+01:16:36,853 INFO  [ItgAtmService] (http-nio-auto-1-exec-7:)  
+01:16:36,856 INFO  [ItgAtmService] (http-nio-auto-1-exec-7:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+01:16:36,857 INFO  [ItgAtmService] (http-nio-auto-1-exec-7:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+01:16:36,858 INFO  [ItgAtmService] (http-nio-auto-1-exec-7:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+01:16:36,860 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-7:) Result: key= status_out, value= 9
+01:16:36,862 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-7:) Result: key= status_out, value= 11
+01:16:36,862 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-7:) Result: key= status_out1, value= 0
+01:16:36,863 INFO  [ItgAtmService] (http-nio-auto-1-exec-7:) 0
+01:16:36,930 INFO  [ItgAtmService] (http-nio-auto-1-exec-10:)  
+01:16:36,932 INFO  [ItgAtmService] (http-nio-auto-1-exec-10:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+01:16:36,982 INFO  [ItgAtmService] (http-nio-auto-1-exec-10:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+01:16:36,983 INFO  [ItgAtmService] (http-nio-auto-1-exec-10:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+01:16:36,989 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-10:) Result of get_acq_fee_amount2: 20
+01:16:36,996 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-10:) Result: key= status_out, value= 11
+01:16:36,997 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-10:) Result: key= status_out1, value= 0
+01:16:36,997 INFO  [ItgAtmService] (http-nio-auto-1-exec-10:) 20
+09:36:32,285 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+09:36:32,288 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+09:36:32,289 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+09:36:32,293 INFO  [ItgAtmApplication] (Test worker:) Contains person.name: false
+09:36:33,443 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+09:36:33,447 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+09:36:33,471 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+09:36:33,472 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+09:36:33,925 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 9
+09:36:33,928 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out, value= 11
+09:36:33,929 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) Result: key= status_out1, value= 0
+09:36:33,929 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+09:36:34,057 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+09:36:34,058 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+09:36:34,060 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+09:36:34,060 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+09:36:34,072 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 9
+09:36:34,075 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out, value= 11
+09:36:34,076 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) Result: key= status_out1, value= 0
+09:36:34,076 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+09:36:34,130 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+09:36:34,132 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+09:36:34,134 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+09:36:34,134 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+09:36:34,136 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 9
+09:36:34,138 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out, value= 11
+09:36:34,139 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) Result: key= status_out1, value= 0
+09:36:34,139 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+09:36:34,213 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+09:36:34,217 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+09:36:34,233 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+09:36:34,234 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+09:36:34,239 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 9
+09:36:34,241 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out, value= 11
+09:36:34,242 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) Result: key= status_out1, value= 0
+09:36:34,242 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+09:36:34,302 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+09:36:34,303 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+09:36:34,336 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+09:36:34,337 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+09:36:34,341 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result of get_acq_fee_amount2: 20
+09:36:34,345 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out, value= 11
+09:36:34,345 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) Result: key= status_out1, value= 0
+09:36:34,346 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 20
+09:40:18,626 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+09:40:18,631 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+09:40:18,632 INFO  [ItgAtmApplication] (main:) OptionNames: []
+09:40:18,637 INFO  [ItgAtmApplication] (main:) Contains person.name: false
+09:41:59,882 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+09:41:59,886 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+09:41:59,887 INFO  [ItgAtmApplication] (main:) OptionNames: []
+09:41:59,891 INFO  [ItgAtmApplication] (main:) Contains debug: false
+09:52:10,815 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+09:52:10,818 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+09:52:10,819 INFO  [ItgAtmApplication] (main:) OptionNames: []
+09:52:10,823 INFO  [ItgAtmApplication] (main:) Contains debug: false
+11:07:35,632 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+11:07:35,636 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+11:07:35,638 INFO  [ItgAtmApplication] (main:) OptionNames: []
+11:07:35,642 INFO  [ItgAtmApplication] (main:) Contains debug: false
+15:38:31,501 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+15:38:31,501 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+15:38:31,501 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+15:38:31,501 INFO  [ItgAtmApplication] (Test worker:) Contains debug: false
+15:38:32,250 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+15:38:32,250 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+15:38:32,250 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+15:38:32,265 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+15:38:34,385 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+15:38:34,439 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+15:38:34,439 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+15:38:34,439 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+15:38:34,439 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+15:38:36,470 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+15:38:36,501 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+15:38:36,501 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+15:38:36,501 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+15:38:36,501 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+15:38:38,514 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+15:38:38,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+15:38:38,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+15:38:38,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+15:38:38,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+15:38:40,563 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+15:38:40,579 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+15:38:40,579 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+15:38:40,585 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+15:38:40,585 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+15:38:42,622 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+16:16:28,323 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+16:16:28,325 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+16:16:28,326 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+16:16:28,327 INFO  [ItgAtmApplication] (Test worker:) Contains debug: false
+16:16:28,946 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+16:16:28,948 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+16:16:28,958 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+16:16:28,959 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+16:16:31,058 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+16:16:31,111 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+16:16:31,112 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+16:16:31,113 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+16:16:31,113 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+16:16:33,127 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+16:16:33,144 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+16:16:33,144 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+16:16:33,145 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+16:16:33,145 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+16:16:35,176 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+16:16:35,189 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+16:16:35,189 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+16:16:35,190 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+16:16:35,190 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+16:16:37,198 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+16:16:37,211 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+16:16:37,211 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+16:16:37,220 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+16:16:37,220 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+16:16:39,229 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+17:11:35,648 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+17:11:35,650 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+17:11:35,651 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+17:11:35,653 INFO  [ItgAtmApplication] (Test worker:) Contains debug: false
+17:11:36,340 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+17:11:36,342 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+17:11:36,353 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:11:36,354 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+17:11:38,459 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+17:11:38,506 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+17:11:38,507 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+17:11:38,508 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:11:38,508 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+17:11:40,523 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+17:11:40,544 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+17:11:40,545 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+17:11:40,546 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:11:40,546 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+17:11:42,558 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+17:11:42,572 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+17:11:42,573 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+17:11:42,573 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:11:42,573 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+17:11:44,582 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+17:11:44,594 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+17:11:44,595 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+17:11:44,611 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+17:11:44,611 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+17:11:46,619 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+17:13:36,869 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+17:13:36,872 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+17:13:36,872 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+17:13:36,874 INFO  [ItgAtmApplication] (Test worker:) Contains debug: false
+17:13:37,557 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+17:13:37,560 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+17:13:37,581 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:13:37,582 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+17:13:39,708 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+17:13:39,750 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+17:13:39,751 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+17:13:39,752 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:13:39,752 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+17:13:41,767 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+17:13:41,789 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+17:13:41,789 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+17:13:41,790 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:13:41,790 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+17:13:43,801 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+17:13:43,816 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+17:13:43,817 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+17:13:43,817 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:13:43,817 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+17:13:45,826 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+17:13:45,840 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+17:13:45,841 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+17:13:45,853 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+17:13:45,853 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+17:13:47,862 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+17:15:19,378 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+17:15:19,380 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+17:15:19,380 INFO  [ItgAtmApplication] (main:) OptionNames: []
+17:15:19,382 INFO  [ItgAtmApplication] (main:) Contains debug: false
+17:19:03,758 INFO  [ItgAtmApplication] (Test worker:) Application started with command-line arguments: []
+17:19:03,759 INFO  [ItgAtmApplication] (Test worker:) NonOptionArgs: []
+17:19:03,760 INFO  [ItgAtmApplication] (Test worker:) OptionNames: []
+17:19:03,762 INFO  [ItgAtmApplication] (Test worker:) Contains debug: false
+17:19:04,535 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+17:19:04,539 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+17:19:04,553 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:19:04,554 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+17:19:06,700 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+17:19:06,757 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+17:19:06,758 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+17:19:06,759 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:19:06,759 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+17:19:08,782 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+17:19:08,796 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+17:19:08,796 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+17:19:08,797 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:19:08,797 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+17:19:10,809 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+17:19:10,823 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+17:19:10,823 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+17:19:10,824 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+17:19:10,824 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+17:19:12,858 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+17:19:12,871 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+17:19:12,872 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+17:19:12,886 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+17:19:12,886 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+17:19:14,894 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+17:20:09,826 INFO  [ItgAtmApplication] (main:) Application started with command-line arguments: []
+17:20:09,829 INFO  [ItgAtmApplication] (main:) NonOptionArgs: []
+17:20:09,829 INFO  [ItgAtmApplication] (main:) OptionNames: []
+17:20:09,832 INFO  [ItgAtmApplication] (main:) Contains debug: false
+17:20:17,872 INFO  [ItgAtmService] (http-nio-8080-exec-1:)  
+17:20:17,875 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+17:20:17,875 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+17:20:19,940 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 0
+17:22:31,732 INFO  [ItgAtmService] (http-nio-8080-exec-1:)  
+17:22:31,738 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+17:22:31,739 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+17:22:31,974 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= 9
+17:22:31,976 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= 11
+17:22:31,976 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out1, value= 0
+17:22:31,976 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 0
+17:34:30,184 INFO  [ItgAtmService] (http-nio-8080-exec-1:)  
+17:34:30,188 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+17:34:30,188 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+17:34:30,360 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= 9
+17:34:30,362 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= 11
+17:34:30,363 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out1, value= 0
+17:34:30,363 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 0
+17:37:48,110 INFO  [ItgAtmService] (http-nio-8080-exec-3:)  
+17:37:48,111 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+17:37:48,111 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+17:37:48,113 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) Result: key= status_out, value= 9
+17:37:48,115 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) Result: key= status_out, value= 11
+17:37:48,115 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) Result: key= status_out1, value= 0
+17:37:48,115 INFO  [ItgAtmService] (http-nio-8080-exec-3:) 0
+18:02:24,484 INFO  [ItgAtmService] (http-nio-8080-exec-5:)  
+18:02:24,485 INFO  [ItgAtmService] (http-nio-8080-exec-5:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+18:02:24,485 INFO  [ItgAtmService] (http-nio-8080-exec-5:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+18:02:24,491 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-5:) Result: key= status_out, value= 9
+18:02:24,492 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-5:) Result: key= status_out, value= 11
+18:02:24,492 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-5:) Result: key= status_out1, value= 0
+18:02:24,492 INFO  [ItgAtmService] (http-nio-8080-exec-5:) 0
+20:15:20,957 INFO  [ItgAtmService] (http-nio-8080-exec-2:)  
+20:15:20,961 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+20:15:20,961 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+20:15:23,049 INFO  [ItgAtmService] (http-nio-8080-exec-2:) 0
+21:09:23,285 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:)  
+21:09:23,289 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {transId= [PAYMENT_CASH][123412******1234][3][][10000]}
+21:09:23,298 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->PaymentCash: {crd=123412******1234,term=3,amt=10000,cur=810}
+21:09:23,298 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee (null): {id=[PAYMENT_CASH][123412******1234][3][][10000]}
+21:09:25,391 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) 0
+21:09:25,435 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:)  
+21:09:25,436 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {transId= [CASH_IN][123412******1234][3][][10000]}
+21:09:25,437 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->CashIn: {crd=123412******1234,term=3,amt=10000,cur=810}
+21:09:25,437 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee (null): {id=[CASH_IN][123412******1234][3][][10000]}
+21:09:27,452 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) 0
+21:09:27,467 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:)  
+21:09:27,467 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {transId= [PAYMENT][123412******1234][3][][10000]}
+21:09:27,468 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Payment: {crd=123412******1234,term=3,amt=10000,cur=810}
+21:09:27,468 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee (null): {id=[PAYMENT][123412******1234][3][][10000]}
+21:09:29,478 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) 0
+21:09:29,492 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:)  
+21:09:29,492 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {transId= [CASH_OUT][123412******1234][3][][10000]}
+21:09:29,492 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->CashOut: {crd=123412******1234,term=3,amt=10000,cur=810}
+21:09:29,493 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee (null): {id=[CASH_OUT][123412******1234][3][][10000]}
+21:09:31,508 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) 0
+21:09:31,521 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:)  
+21:09:31,521 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+21:09:31,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+21:09:31,529 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+21:09:33,537 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) 0
+21:11:06,239 INFO  [ItgAtmService] (http-nio-8080-exec-1:)  
+21:11:06,245 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+21:11:06,245 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+21:11:08,341 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 0
+21:11:28,234 INFO  [ItgAtmService] (http-nio-8080-exec-3:)  
+21:11:28,235 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+21:11:28,235 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+21:11:30,247 INFO  [ItgAtmService] (http-nio-8080-exec-3:) 0
+21:50:37,144 INFO  [ItgAtmService] (http-nio-8080-exec-1:)  
+21:50:37,153 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [{0}][123412******1234][3][][10000]}
+21:50:37,154 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[{0}][123412******1234][3][][10000]}
+21:50:39,390 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 0

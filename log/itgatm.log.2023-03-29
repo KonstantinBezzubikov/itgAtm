@@ -1,0 +1,79 @@
+00:49:12,552 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody:            <?xml version="1.0" encoding="utf-16"?>
+           <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+           <soap:Body>
+            <calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource">
+            <cardSource xmlns="">
+            <number>1234123412341234</number>
+            </cardSource>
+            <cardDestination xmlns="">
+            <number>11111111111111111</number>
+            </cardDestination>
+            <amount xmlns="">
+            <amount>10000</amount>
+            <currency>810</currency>
+            </amount>
+            <transType xmlns="">TRANSFER</transType>
+            <terminal xmlns="">
+            <terminalId>3</terminalId>
+            <merchantId>3455</merchantId>
+            </terminal>
+            </calculateAcqFee>
+            </soap:Body>
+            </soap:Envelope>
+00:49:12,685 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+00:52:12,329 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody:            <?xml version="1.0" encoding="utf-16"?>
+           <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+           <soap:Body>
+            <calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource">
+            <cardSource xmlns="">
+            <number>1234123412341234</number>
+            </cardSource>
+            <cardDestination xmlns="">
+            <number>11111111111111111</number>
+            </cardDestination>
+            <amount xmlns="">
+            <amount>10000</amount>
+            <currency>810</currency>
+            </amount>
+            <transType xmlns="">TRANSFER</transType>
+            <terminal xmlns="">
+            <terminalId>3</terminalId>
+            <merchantId>3455</merchantId>
+            </terminal>
+            </calculateAcqFee>
+            </soap:Body>
+            </soap:Envelope>
+00:52:12,492 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+00:56:25,619 INFO  [ItgAtmController] (http-nio-8080-exec-5:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+00:56:25,626 INFO  [ItgAtmXMLService] (http-nio-8080-exec-5:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+00:56:58,661 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+00:56:58,771 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+01:28:39,225 INFO  [ItgAtmController] (http-nio-8080-exec-4:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+01:28:39,338 INFO  [ItgAtmXMLService] (http-nio-8080-exec-4:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+01:28:39,358 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-4:) svistaCalcIssFee for csrd: 11111111111111111
+01:29:00,173 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+01:29:00,272 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+01:29:00,293 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) svistaCalcIssFee for csrd: 11111111111111111
+01:29:38,409 INFO  [ItgAtmController] (http-nio-8080-exec-4:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+01:29:38,415 INFO  [ItgAtmXMLService] (http-nio-8080-exec-4:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+01:29:38,416 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-4:) svistaCalcIssFee for csrd: 11111111111111111
+01:29:38,600 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-4:) Result: key= status_out, value= trans
+10:57:50,783 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+10:57:51,055 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+10:57:51,096 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) svistaCalcIssFee for csrd: 11111111111111111
+10:57:51,636 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) Result: key= status_out, value= trans
+11:00:48,531 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+11:00:48,774 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+11:00:48,817 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) svistaCalcIssFee for csrd: 11111111111111111
+11:00:49,201 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) Result: key= status_out, value= trans
+11:00:49,203 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) feeRateDataMsg <feeRateData>trans</feeRateData>
+11:04:17,236 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+11:04:17,490 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+11:04:17,531 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) svistaCalcIssFee for csrd: 11111111111111111
+11:04:17,921 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) Result: key= status_out, value= trans
+11:04:17,922 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) feeRateDataMsg <feeRateData>trans</feeRateData>
+11:09:17,134 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: <?xml version="1.0" encoding="utf-16"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+11:09:17,388 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+11:09:17,425 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) svistaCalcIssFee for csrd: 11111111111111111
+11:09:17,816 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) Result: key= status_out, value= trans
+11:09:17,817 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) feeRateDataMsg <feeRateData>trans</feeRateData>

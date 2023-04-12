@@ -1,0 +1,24 @@
+12:13:57,096 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+12:20:10,378 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+12:21:51,126 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+13:09:44,624 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+13:22:53,200 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+13:59:59,012 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+14:14:40,063 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 
+14:14:40,078 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+14:14:40,127 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+14:14:40,130 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+14:14:40,626 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= trans
+14:15:04,164 INFO  [ItgAtmService] (http-nio-8080-exec-3:) 
+14:15:04,166 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+14:15:04,167 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+14:15:04,167 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+14:15:04,171 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) Result: key= status_out, value= trans
+14:17:18,688 INFO  [ItgAtmService] (http-nio-8080-exec-1:) 
+14:17:18,697 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {transId= [TRANSFER][123412******1234][3][][10000]}
+14:17:18,719 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+14:17:18,720 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee (null): {id=[TRANSFER][123412******1234][3][][10000]}
+14:17:19,112 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) Result: key= status_out, value= trans
+14:31:06,540 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+14:33:31,929 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans
+15:19:33,101 INFO  [ItgAtmSvfeJdbcRepository] (Test worker:) Result: key= status_out, value= trans

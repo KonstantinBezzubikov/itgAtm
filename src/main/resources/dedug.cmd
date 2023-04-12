@@ -1,0 +1,1 @@
+call java -cp itgAtm-0.0.1-SNAPSHOT.jar  -Dloader.main=gpb.dppt.itg.debug.ItgAtmDebugClient org.springframework.boot.loader.PropertiesLauncher http://localhost:8080/itgatm %1 %2 %3 %4 %5 %6

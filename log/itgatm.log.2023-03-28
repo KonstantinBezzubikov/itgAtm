@@ -1,0 +1,418 @@
+12:33:04,904 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+12:41:26,241 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+12:45:06,291 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+12:49:24,445 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+12:54:32,995 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:04:59,157 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:06:38,888 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:06:38,892 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log tap
+13:07:54,231 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:07:54,234 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:07:54,234 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:09:35,259 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:09:35,263 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:09:35,263 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:09:35,272 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString done
+13:10:44,205 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:10:44,209 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:10:44,209 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:19:05,887 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:19:05,890 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:19:05,890 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:20:50,375 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:20:50,379 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:20:50,379 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:20:50,388 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) 
+13:22:32,105 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+13:22:32,109 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+13:22:32,109 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+13:22:32,117 ERROR [ItgAtmXMLService] (http-nio-8080-exec-1:) Exceptionjava.lang.NullPointerException
+14:04:30,891 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+14:04:30,895 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+14:04:30,895 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+14:04:30,924 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString done com.sun.xml.messaging.saaj.soap.ver1_1.Message1_1Impl@327867b3
+14:45:14,775 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+14:45:14,779 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+14:45:14,780 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString
+14:45:14,825 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log formatSoapString done com.sun.xml.messaging.saaj.soap.ver1_1.Message1_1Impl@565a185e
+14:45:14,879 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns0:GetServiceTest
+14:45:14,879 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:aa
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value: 
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:bb
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:cc
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123456
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:dd
+14:45:14,880 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:999
+14:45:14,881 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ee
+14:45:14,881 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123
+14:45:14,881 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ff
+14:45:14,881 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:888
+14:45:14,882 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:gg
+14:45:14,882 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:666
+14:45:14,882 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:hh
+14:45:14,882 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:0108A
+14:49:22,436 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: lkhj=
+14:49:22,440 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Log parseSoapMessage
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns0:GetServiceTest
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:null
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:aa
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value: 
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:bb
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:null
+14:49:22,512 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:cc
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:123456
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:dd
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:999
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:ee
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:123
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:ff
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:888
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:gg
+14:49:22,513 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:666
+14:49:22,514 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Node Name:ns1:hh
+14:49:22,514 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Value:0108A
+14:51:30,161 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+14:51:30,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+14:51:30,230 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns0:GetServiceTest
+14:51:30,230 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:51:30,230 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:aa
+14:51:30,230 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value: 
+14:51:30,230 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:bb
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:cc
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123456
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:dd
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:999
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ee
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123
+14:51:30,231 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ff
+14:51:30,232 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:888
+14:51:30,232 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:gg
+14:51:30,232 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:666
+14:51:30,232 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:hh
+14:51:30,232 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:0108A
+14:55:03,091 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+14:55:03,095 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+14:55:03,165 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns0:GetServiceTest
+14:55:03,165 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:55:03,165 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:aa
+14:55:03,165 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value: 
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:bb
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:cc
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123456
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:dd
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:999
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ee
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ff
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:888
+14:55:03,166 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:gg
+14:55:03,167 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:666
+14:55:03,167 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:hh
+14:55:03,167 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:0108A
+14:56:50,246 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+14:56:50,250 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+14:56:50,324 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns0:GetServiceTest
+14:56:50,324 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:56:50,324 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:aa
+14:56:50,324 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value: 
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:bb
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:cc
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123456
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:dd
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:999
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ee
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:123
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:ff
+14:56:50,325 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:888
+14:56:50,326 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:gg
+14:56:50,326 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:666
+14:56:50,326 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:ns1:hh
+14:56:50,326 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:0108A
+15:16:50,805 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: lkhj=
+15:16:50,809 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+16:59:45,762 INFO  [ItgAtmController] (http-nio-8080-exec-2:) RequestBody: Test+=
+16:59:45,768 INFO  [ItgAtmXMLService] (http-nio-8080-exec-2:) Log parseSoapMessage
+17:01:21,703 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+=
+17:01:21,709 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+17:01:21,858 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:calculateAcqFee
+17:01:21,859 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+17:01:21,859 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+17:01:21,860 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+17:01:21,860 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+17:01:21,860 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+17:01:21,861 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+17:01:21,861 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+17:01:21,861 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+17:01:21,862 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:11111111111111111
+17:01:21,862 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+17:01:21,862 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+17:01:21,863 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+17:01:21,863 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:10000
+17:01:21,864 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:currency
+17:01:21,864 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:810
+17:01:21,864 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:transType
+17:01:21,864 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:TRANSFER
+17:01:21,865 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminal
+17:01:21,865 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+17:01:21,865 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminalId
+17:01:21,866 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3
+17:01:21,866 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:merchantId
+17:01:21,866 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3455
+18:11:39,262 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+=
+18:11:39,266 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+18:11:39,358 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:calculateAcqFee
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@12570384
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@d4f9fc0
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+18:11:39,359 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@20b6d095
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@16300df8
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:11111111111111111
+18:11:39,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@3c516799
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@4d114e4c
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:10000
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@5b351d03
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:currency
+18:11:39,361 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:810
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@4dfc9450
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:transType
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:TRANSFER
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@7a265fd9
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminal
+18:11:39,362 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@3d020dff
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminalId
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@4eacc259
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:merchantId
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3455
+18:11:39,363 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@675b91c8
+18:23:04,467 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh+++++++=
+18:23:04,471 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+18:23:04,552 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:calculateAcqFee
+18:23:04,552 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:23:04,552 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@73bc1d
+18:23:04,552 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@6388afb5
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@4092d4a8
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@57193e2
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:11111111111111111
+18:23:04,553 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@187f4405
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@3eacb5b8
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:10000
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@68cd1151
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:currency
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:810
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@612a7129
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:transType
+18:23:04,554 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:TRANSFER
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@3974e65
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminal
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@58cd2ada
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminalId
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@588aef0b
+18:23:04,555 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:merchantId
+18:23:04,556 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3455
+18:23:04,556 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@6a1b6e0a
+18:24:40,388 INFO  [ItgAtmController] (http-nio-8080-exec-3:) RequestBody: Test+kjhkjh%5C0=
+18:24:40,389 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Log parseSoapMessage
+18:24:40,393 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:calculateAcqFee
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@9915aee
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:cardSource
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@649591a3
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:number
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:1234123412341234
+18:24:40,394 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@5b3b3620
+18:24:40,395 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:cardDestination
+18:24:40,395 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:24:40,395 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@222e168f
+18:24:40,395 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:number
+18:24:40,395 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:11111111111111111
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@21eb7e0e
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:amount
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@693bfb19
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:amount
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:10000
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@6bb34a28
+18:24:40,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:currency
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:810
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@397bb3bf
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:transType
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:TRANSFER
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@439aa190
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:terminal
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:24:40,397 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@75cf69c9
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:terminalId
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:3
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@4dc8f52
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:merchantId
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:3455
+18:24:40,398 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:com.sun.xml.messaging.saaj.soap.impl.ElementImpl$6@60de323d
+18:36:39,524 INFO  [ItgAtmController] (http-nio-8080-exec-3:) RequestBody: Test+kjhkjh%5C0=
+18:36:39,524 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Log parseSoapMessage
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:calculateAcqFee
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:cardSource
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:number
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:1234123412341234
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:cardDestination
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:number
+18:36:39,602 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:11111111111111111
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:amount
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:amount
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:10000
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:currency
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:810
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:transType
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:TRANSFER
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:terminal
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:null
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:terminalId
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:3
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Node Name:merchantId
+18:36:39,608 INFO  [ItgAtmXMLService] (http-nio-8080-exec-3:) Value:3455
+19:27:19,470 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+19:27:19,474 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+19:30:13,409 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+19:30:13,413 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+19:30:13,505 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+19:31:26,898 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+19:31:26,902 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+19:31:26,970 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:calculateAcqFee
+19:31:26,970 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:31:26,970 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+19:31:26,970 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:31:26,970 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:11111111111111111
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:31:26,971 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:10000
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:currency
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:810
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:transType
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:TRANSFER
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminal
+19:31:26,972 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:31:26,973 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminalId
+19:31:26,973 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3
+19:31:26,973 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:merchantId
+19:31:26,973 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:3455
+19:38:59,538 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+19:38:59,541 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+19:38:59,625 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+19:41:12,324 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+19:41:12,328 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+19:41:12,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:calculateAcqFee
+19:41:12,396 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+19:41:12,417 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:00:30,263 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:00:30,267 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:00:30,373 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:00:30,374 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:00:30,374 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:00:30,374 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:00:30,374 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:00:30,374 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:00:30,401 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:02:05,212 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:02:05,216 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:02:05,330 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:02:05,331 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:02:05,331 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:02:05,331 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:02:05,331 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:02:05,331 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:02:05,360 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:03:32,555 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:03:32,559 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:03:32,664 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:03:32,665 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:03:32,665 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+20:03:32,665 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+20:03:32,666 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:03:32,666 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:03:32,666 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:03:32,666 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:03:32,703 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:05:21,989 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:05:21,992 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:05:22,079 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:05:22,079 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:22,079 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+20:05:22,079 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+20:05:22,080 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+20:05:22,080 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:05:22,080 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:22,080 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:05:22,080 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:22,106 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:05:56,811 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:05:56,815 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:05:56,938 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:05:56,938 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:56,939 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Local Name:number
+20:05:56,939 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+20:05:56,940 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+20:05:56,940 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:05:56,940 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:56,940 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:05:56,940 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:05:56,978 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=null, dstCardNo=null, amount=null, currency=null, transType=null, svistaTransType=null, terminalId=null, merchantId=null, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:07:17,742 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:07:17,747 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Log parseSoapMessage
+20:07:17,846 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardSource
+20:07:17,846 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:07:17,847 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Local Name:number
+20:07:17,847 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:number
+20:07:17,847 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:1234123412341234
+20:07:17,847 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:cardDestination
+20:07:17,847 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:07:17,848 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:amount
+20:07:17,848 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:07:17,848 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:transType
+20:07:17,848 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:TRANSFER
+20:07:17,848 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Node Name:terminal
+20:07:17,849 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) Value:null
+20:07:17,888 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
+20:24:20,854 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:24:20,857 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+20:25:33,714 INFO  [ItgAtmController] (http-nio-8080-exec-1:) RequestBody: Test+kjhkjh%5C0=
+20:25:33,716 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><calculateAcqFee xmlns="http://www.bpcbt.com/sv/infosource"><cardSource xmlns=""><number>1234123412341234</number></cardSource><cardDestination xmlns=""><number>11111111111111111</number></cardDestination><amount xmlns=""><amount>10000</amount><currency>810</currency></amount><transType xmlns="">TRANSFER</transType><terminal xmlns=""><terminalId>3</terminalId><merchantId>3455</merchantId></terminal></calculateAcqFee></soap:Body></soap:Envelope>
+20:25:33,815 INFO  [ItgAtmXMLService] (http-nio-8080-exec-1:) ItgSvfeCalcFeeAmtDto(sourceCardNo=1234123412341234, dstCardNo=11111111111111111, amount=10000, currency=810, transType=TRANSFER, svistaTransType=null, terminalId=3, merchantId=3455, serviceId=null, fee=null, receiptFee=null, feeRateAlg=null, feeRateData=null, feeRateMsg=null)
