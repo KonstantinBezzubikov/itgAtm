@@ -4,7 +4,6 @@ package gpb.dppt.itg.atm.repository;
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.CallableStatementCreator;
@@ -77,7 +76,7 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
             }, parameters);
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
-            log.info("Result of get_acq_fee_amount2: "+ result);
+            log.info("->AcqFee {id=" + fee.getTransId() + ",fee=" + result + "}");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -118,7 +117,7 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
             }, parameters);
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
-            log.info("Result of svistaCalcAcqFee: "+ result);
+           log.info("->AcqFee: {id=" + fee.getTransId() + ",fee=" + result + "}");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -164,16 +163,10 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
         }, parameters);
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
-            log.info("Result of svistaCalcIssFee: "+ result);
-//        for(Map.Entry<String, Object> entry: t.entrySet()) {
-//            // get key
-//            String key = entry.getKey();
-//            // get value
-//            String value = entry.getValue().toString();
-//
-//           log.info("Result: key= " + key + ", value= "+value);
-//
-//        }
+
+            log.info("->IssFee: {id=" + fee.getTransId() + ",fee=" + result + "}");
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }

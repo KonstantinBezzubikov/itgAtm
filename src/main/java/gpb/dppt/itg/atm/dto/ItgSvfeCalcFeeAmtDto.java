@@ -1,12 +1,15 @@
 package gpb.dppt.itg.atm.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigInteger;
 
 @Data
+@Builder
 public class ItgSvfeCalcFeeAmtDto {
 
+    private String transId;
     private String sourceCardNo;
     private String dstCardNo;
     private BigInteger amount;

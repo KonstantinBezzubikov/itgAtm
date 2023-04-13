@@ -108,7 +108,7 @@ class ItgCCSTestsE2E {
 	private String controller(String soapStr) throws Exception {
 		HttpEntity<String> entity = new HttpEntity<>(soapStr, headers);
 		ResponseEntity<String> response = restTemplate.exchange(
-				createURLWithPort("/itgatm"),
+				createURLWithPort("/itg/atm"),
 				HttpMethod.POST, entity, String.class);
 		return response.getBody();
 		//assertEquals(xmlResponseStr, response.getBody());
