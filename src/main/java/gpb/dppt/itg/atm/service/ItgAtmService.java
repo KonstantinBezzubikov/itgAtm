@@ -10,6 +10,8 @@ import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 
 @Service
 @AllArgsConstructor
@@ -22,14 +24,16 @@ public class ItgAtmService extends ItgAtmServiceBase{
     private ItgAtmXMLService itgAtmXMLService;
 
 
-    public String route(String requestStr){
+    public String route(Map<String, String> headers, String requestStr){
         ItgSvfeCalcFeeAmtDto feeData = ItgSvfeCalcFeeAmtDto.builder().build();
 
        try {
             itgAtmXMLService.parseMsg(requestStr, feeData);
-            buildTransId(feeData);
 
-            log.info("->Fee: {transId= " + feeData.getTransId() + "}");
+            if(headers.get("x-correlation-id") != null){
+            feeData.setTransId(headers.get("x-correlation-id"));}
+
+            log.info("->Fee: {xCorTransId= " + feeData.getTransId() +" TransId= " + buildTransId(feeData) +"}");
             feeData.setMerchantId(feeData.getTerminalId());
 
             changeFeeDataByTransType(feeData);
@@ -41,7 +45,7 @@ public class ItgAtmService extends ItgAtmServiceBase{
         }
         setFeeByModuleAndCheckForNull(feeData);
 
-       log.info("->Fee: {id=" + feeData.getTransId() + ",fee=" + feeData.getFee().toString() + "}");
+       log.info("->Fee: {xCorTransId=" + feeData.getTransId() + ",fee=" + feeData.getFee().toString() + "}");
 
         return itgAtmXMLService.buildResponse(feeData);
     }

@@ -2,9 +2,11 @@ package gpb.dppt.itg.atm.service;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
 import lombok.extern.java.Log;
+import lombok.extern.log4j.Log4j;
+
 import java.math.BigInteger;
 
-@Log
+@Log4j
 public class ItgAtmServiceBase {
 
     private boolean isCashIn(String transType) { return "CASH_IN".equals(transType); }
@@ -63,7 +65,7 @@ public class ItgAtmServiceBase {
             return cardNo;
     }
 
-    public void buildTransId(ItgSvfeCalcFeeAmtDto feeData){
+    public String buildTransId(ItgSvfeCalcFeeAmtDto feeData){
 
         StringBuffer sb = new StringBuffer();
         try {
@@ -83,7 +85,7 @@ public class ItgAtmServiceBase {
         } catch(Exception ex) {
 
         }
-        feeData.setTransId(sb.toString());
+        return sb.toString();
     }
 
     public void setFeeByModuleAndCheckForNull(ItgSvfeCalcFeeAmtDto feeData){

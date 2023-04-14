@@ -76,7 +76,7 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
             }, parameters);
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
-            log.info("->AcqFee {id=" + fee.getTransId() + ",fee=" + result + "}");
+            log.info("->AcqFee {xCorTransId=" + fee.getTransId() + ",fee=" + result + "}");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -117,7 +117,7 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
             }, parameters);
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
-           log.info("->AcqFee: {id=" + fee.getTransId() + ",fee=" + result + "}");
+           log.info("->AcqFee: {xCorTransId=" + fee.getTransId() + ",fee=" + result + "}");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -164,7 +164,7 @@ public class ItgAtmSvfeJdbcRepository implements ItgAtmSvfeRepository{
 
             result = BigInteger.valueOf((long) Integer.parseInt(t.get("status_out").toString()));
 
-            log.info("->IssFee: {id=" + fee.getTransId() + ",fee=" + result + "}");
+            log.info("->IssFee: {xCorTransId=" + fee.getTransId() + ",fee=" + result + "}");
 
 
         } catch (Exception e) {

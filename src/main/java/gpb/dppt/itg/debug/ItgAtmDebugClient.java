@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
 import java.text.MessageFormat;
+import java.util.Collections;
 
 
 @Log4j
@@ -75,7 +76,8 @@ public class ItgAtmDebugClient {
        HttpHeaders headers = new HttpHeaders();
       headers.add("Accept", MediaType.APPLICATION_XML_VALUE);
       headers.setContentType(MediaType.APPLICATION_XML);
-
+      headers.set("X-Correlation-ID", "urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7");
+     // HttpEntity<String> entity = new HttpEntity<>(soapStr, headers);
       RestTemplate restTemplate = new RestTemplate();
 
       // Data attached to the request.

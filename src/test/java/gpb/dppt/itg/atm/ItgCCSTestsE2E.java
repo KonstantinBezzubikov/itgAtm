@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
+
 import java.text.MessageFormat;
+import java.util.Collections;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -106,6 +106,9 @@ class ItgCCSTestsE2E {
 	}
 
 	private String controller(String soapStr) throws Exception {
+		HttpHeaders headers = new HttpHeaders();
+			headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+			headers.set("X-Correlation-ID", "urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7");
 		HttpEntity<String> entity = new HttpEntity<>(soapStr, headers);
 		ResponseEntity<String> response = restTemplate.exchange(
 				createURLWithPort("/itg/atm"),

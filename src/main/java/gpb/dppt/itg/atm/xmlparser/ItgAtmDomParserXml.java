@@ -69,7 +69,6 @@ public class ItgAtmDomParserXml {
             e.printStackTrace();
         }
 
-        System.out.println(itgSvfeCalcFeeAmtDto.toString());
     }
 
 }

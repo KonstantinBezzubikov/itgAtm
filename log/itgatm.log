@@ -2,3 +2,68 @@
 00:17:05,495 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) ->AcqFee {id=[TRANSFER][123412******1234][3][][10000],fee=20}
 00:17:05,499 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-3:) ->IssFee: {id=[TRANSFER][123412******1234][3][][10000],fee=11}
 00:17:05,500 INFO  [ItgAtmService] (http-nio-8080-exec-3:) ->Fee: {id=[TRANSFER][123412******1234][3][][10000],fee=31}
+11:44:42,122 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {xCorTransId= null TransId= [TRANSFER][123412******1234][3][][10000]}
+11:44:42,384 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) ->AcqFee {xCorTransId=null,fee=20}
+11:44:42,395 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) ->IssFee: {xCorTransId=null,fee=11}
+11:44:42,396 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {xCorTransId=null,fee=31}
+11:49:01,435 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId= null TransId= [TRANSFER][123412******1234][3][][10000]}
+11:49:01,862 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->AcqFee {xCorTransId=null,fee=20}
+11:49:01,865 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->IssFee: {xCorTransId=null,fee=11}
+11:49:01,866 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId=null,fee=31}
+11:50:21,071 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId= null TransId= [TRANSFER][123412******1234][3][][10000]}
+11:50:21,465 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->AcqFee {xCorTransId=null,fee=20}
+11:50:21,468 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->IssFee: {xCorTransId=null,fee=11}
+11:50:21,469 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId=null,fee=31}
+11:52:38,417 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [TRANSFER][123412******1234][3][][10000]}
+11:52:38,860 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->AcqFee {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+11:52:38,864 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+11:52:38,865 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=31}
+12:04:14,442 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [PAYMENT_CASH][123412******1234][3][][10000]}
+12:04:14,911 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:04:14,914 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:04:14,915 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:04:15,003 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [CASH_IN][123412******1234][3][][10000]}
+12:04:15,011 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:04:15,013 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:04:15,014 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:04:15,047 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [PAYMENT][123412******1234][3][][10000]}
+12:04:15,051 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:04:15,053 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:04:15,054 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:04:15,099 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [CASH_OUT][123412******1234][3][][10000]}
+12:04:15,106 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:04:15,110 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:04:15,111 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:04:15,166 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [TRANSFER][123412******1234][3][][10000]}
+12:04:15,194 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) ->AcqFee {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:04:15,197 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:04:15,198 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=31}
+12:31:16,503 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [PAYMENT_CASH][123412******1234][3][][10000]}
+12:31:16,936 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:31:16,939 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-1:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:31:16,940 INFO  [ItgAtmService] (http-nio-auto-1-exec-1:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:31:17,035 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [CASH_IN][123412******1234][3][][10000]}
+12:31:17,049 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:31:17,052 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-2:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:31:17,053 INFO  [ItgAtmService] (http-nio-auto-1-exec-2:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:31:17,092 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [PAYMENT][123412******1234][3][][10000]}
+12:31:17,096 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:31:17,098 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-3:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:31:17,099 INFO  [ItgAtmService] (http-nio-auto-1-exec-3:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:31:17,148 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [CASH_OUT][123412******1234][3][][10000]}
+12:31:17,152 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) ->AcqFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=9}
+12:31:17,154 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-4:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:31:17,155 INFO  [ItgAtmService] (http-nio-auto-1-exec-4:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:31:17,209 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [TRANSFER][123412******1234][3][][10000]}
+12:31:17,278 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) ->AcqFee {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:31:17,282 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-auto-1-exec-5:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:31:17,282 INFO  [ItgAtmService] (http-nio-auto-1-exec-5:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=31}
+12:32:32,434 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [TRANSFER][123412******1234][3][][10000]}
+12:32:32,858 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->AcqFee {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:32:32,862 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-2:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:32:32,863 INFO  [ItgAtmService] (http-nio-8080-exec-2:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=31}
+12:35:00,947 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {xCorTransId= urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7 TransId= [TRANSFER][123412******1234][3][][10000]}
+12:35:00,975 INFO  [ItgAtmServiceBase] (http-nio-8080-exec-1:) ->Transfer: {crd=123412******1234dstCrd: 111111******11111,term=3,amt=10000,cur=810}
+12:35:01,444 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) ->AcqFee {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=20}
+12:35:01,448 INFO  [ItgAtmSvfeJdbcRepository] (http-nio-8080-exec-1:) ->IssFee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=11}
+12:35:01,449 INFO  [ItgAtmService] (http-nio-8080-exec-1:) ->Fee: {xCorTransId=urn:ekatm:605119:QjQcpGbFzAV2Zyi1KdpBc7:p2p:fee:7,fee=31}
