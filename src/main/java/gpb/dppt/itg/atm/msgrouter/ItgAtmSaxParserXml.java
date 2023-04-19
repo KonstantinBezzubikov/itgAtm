@@ -1,4 +1,4 @@
-package gpb.dppt.itg.atm.xmlparser;
+package gpb.dppt.itg.atm.msgrouter;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
 import lombok.Builder;

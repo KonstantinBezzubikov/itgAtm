@@ -1,13 +1,14 @@
 package gpb.dppt.itg.atm.service;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
+import gpb.dppt.itg.atm.utils.ItgAtmUtils;
 import lombok.extern.java.Log;
 import lombok.extern.log4j.Log4j;
 
 import java.math.BigInteger;
 
 @Log4j
-public class ItgAtmServiceBase {
+public class ItgAtmServiceBase extends ItgAtmUtils {
 
     private boolean isCashIn(String transType) { return "CASH_IN".equals(transType); }
     private boolean isCashOut(String transType) { return "CASH_OUT".equals(transType); }
@@ -54,16 +55,6 @@ public class ItgAtmServiceBase {
         }
     }
 
-    private String maskCardNo(String cardNo){
-        if(cardNo==null)
-            return "";
-        if(cardNo.length() >= 16)
-            return cardNo.substring(0, 6).concat("******").concat(cardNo.substring(12));
-        else if(cardNo.length() >= 4)
-            return cardNo.substring(cardNo.length()-4);
-        else
-            return cardNo;
-    }
 
     public String buildTransId(ItgSvfeCalcFeeAmtDto feeData){
 

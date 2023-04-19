@@ -1,4 +1,4 @@
-package gpb.dppt.itg.atm.xmlparser;
+package gpb.dppt.itg.atm.msgrouter;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
 import lombok.Builder;
@@ -19,10 +19,11 @@ import java.math.BigInteger;
 @Builder
 public class ItgAtmDomParserXml {
 
-    public void parseMsg(String soapStr, ItgSvfeCalcFeeAmtDto itgSvfeCalcFeeAmtDto) {
+    public ItgSvfeCalcFeeAmtDto parseMsg(String soapStr) {
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
+        ItgSvfeCalcFeeAmtDto itgSvfeCalcFeeAmtDto = ItgSvfeCalcFeeAmtDto.builder().build();
         try {
             dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -69,6 +70,7 @@ public class ItgAtmDomParserXml {
             e.printStackTrace();
         }
 
+        return itgSvfeCalcFeeAmtDto;
     }
 
 }

@@ -1,16 +1,12 @@
-package gpb.dppt.itg.atm.xmlparser;
-
+package gpb.dppt.itg.atm.msgrouter;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
-import org.springframework.stereotype.Service;
+import lombok.Builder;
+
 import java.text.MessageFormat;
-@Service
-public class ItgAtmXMLService {
 
-    public void parseMsg(String xml, ItgSvfeCalcFeeAmtDto itgSvfeCalcFeeAmtDto){
-        ItgAtmDomParserXml.builder().build().parseMsg(xml,itgSvfeCalcFeeAmtDto);
-    }
-
+@Builder
+public class ItgAtmBuildResponseXML {
     private static final String xmlResponseStr =
             "<s:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\">" +
                     "<s:Body>" +
@@ -23,15 +19,7 @@ public class ItgAtmXMLService {
                     "</s:Envelope>";
 
     public String buildResponse(ItgSvfeCalcFeeAmtDto fee){
-            return new MessageFormat(xmlResponseStr).format(new Object[] {fee.getFee()});
+        if (fee == null) {fee = ItgSvfeCalcFeeAmtDto.builder().build();}
+        return new MessageFormat(xmlResponseStr).format(new Object[] {fee.getFee()});
     }
-
-
-
-
 }
-
-
-
-
-
