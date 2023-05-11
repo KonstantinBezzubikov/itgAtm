@@ -3,7 +3,7 @@ package gpb.dppt.itg.atm.service;
 
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
-import gpb.dppt.itg.atm.msgrouter.ItgAtmMsgRouterService;
+import gpb.dppt.itg.atm.msgrouter.ItgAtmMsgRouter;
 import gpb.dppt.itg.atm.repository.ItgAtmSvfeJdbcRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
@@ -21,20 +21,20 @@ public class ItgAtmService extends ItgAtmServiceBase{
     @Autowired
     private ItgAtmSvfeJdbcRepository itgAtmSvfeJdbcRepository;
     @Autowired
-    private ItgAtmMsgRouterService itgAtmMsgRouterService;
+    private ItgAtmMsgRouter itgAtmMsgRouter;
 
 
     public String route(Map<String, String> headers, String requestStr){
         ItgSvfeCalcFeeAmtDto feeData = null;
 
        try {
-           feeData = itgAtmMsgRouterService.parseMsg(requestStr);
+            feeData = itgAtmMsgRouter.parseMsg(requestStr);
 
-            if(headers.get("x-correlation-id") != null){
-            feeData.setTransId(headers.get("x-correlation-id"));}
+            setTransId(feeData, headers);
 
             log.info("->Fee: {xCorTransId= " + feeData.getTransId() +" TransId= " + buildTransId(feeData) +"}");
-            feeData.setMerchantId(feeData.getTerminalId());
+
+            setMerchantId(feeData);
 
             changeFeeDataByTransType(feeData);
 
@@ -48,7 +48,7 @@ public class ItgAtmService extends ItgAtmServiceBase{
        log.info("->Fee: {xCorTransId=" + feeData.getTransId() + ",fee=" + feeData.getFee().toString() + "}");
 
 
-        return itgAtmMsgRouterService.buildResponse(feeData);
+        return itgAtmMsgRouter.buildResponse(feeData);
     }
 
 

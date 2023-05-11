@@ -17,7 +17,7 @@ import java.io.StringReader;
 import java.math.BigInteger;
 
 @Builder
-public class ItgAtmDomParserXml {
+public class ItgAtmXmlDomParser {
 
     public ItgSvfeCalcFeeAmtDto parseMsg(String soapStr) {
 

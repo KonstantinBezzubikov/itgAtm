@@ -6,6 +6,7 @@ import lombok.extern.java.Log;
 import lombok.extern.log4j.Log4j;
 
 import java.math.BigInteger;
+import java.util.Map;
 
 @Log4j
 public class ItgAtmServiceBase extends ItgAtmUtils {
@@ -91,5 +92,14 @@ public class ItgAtmServiceBase extends ItgAtmUtils {
             feeData.setFee(new BigInteger("0"));
         }
 
+    }
+
+    public void setTransId(ItgSvfeCalcFeeAmtDto feeData, Map<String, String> headers){
+        if(headers.get("x-correlation-id") != null){
+            feeData.setTransId(headers.get("x-correlation-id"));}
+    }
+
+    public void setMerchantId(ItgSvfeCalcFeeAmtDto feeData){
+        feeData.setMerchantId(feeData.getTerminalId());
     }
 }

@@ -13,7 +13,7 @@ import java.io.StringReader;
 import java.math.BigInteger;
 
 @Builder
-public class ItgAtmSaxParserXml {
+public class ItgAtmXmlSaxParser {
     public void parseMsg(String xml, ItgSvfeCalcFeeAmtDto itgSvfeCalcFeeAmtDto){
         try {
 

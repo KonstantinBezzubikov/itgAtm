@@ -6,7 +6,7 @@ import lombok.Builder;
 import java.text.MessageFormat;
 
 @Builder
-public class ItgAtmBuildResponseXML {
+public class ItgAtmMsgBuilder {
     private static final String xmlResponseStr =
             "<s:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\">" +
                     "<s:Body>" +
