@@ -1,4 +1,4 @@
-package gpb.dppt.itg.atm.msgrouter;
+package gpb.dppt.itg.debug;
 
 import gpb.dppt.itg.atm.dto.ItgSvfeCalcFeeAmtDto;
 import lombok.Builder;
@@ -6,7 +6,6 @@ import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
-
 import javax.xml.XMLConstants;
 import java.io.IOException;
 import java.io.StringReader;

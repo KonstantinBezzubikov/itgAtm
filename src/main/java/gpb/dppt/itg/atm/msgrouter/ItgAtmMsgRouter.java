@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class ItgAtmMsgRouter {
 
     public ItgSvfeCalcFeeAmtDto parseMsg(String xml){
-        return ItgAtmXmlXPathParser.builder().build().
+        return ItgAtmXmlParser.builder().build().
                 parseMsg(xml);
     }
 
