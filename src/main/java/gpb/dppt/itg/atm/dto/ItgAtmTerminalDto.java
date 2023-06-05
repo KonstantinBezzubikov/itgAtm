@@ -1,4 +1,4 @@
-package gpb.dppt.itg.debug.xml.dto;
+package gpb.dppt.itg.atm.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
