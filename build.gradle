@@ -29,6 +29,10 @@ dependencies {
 	implementation group: 'com.sun.xml.messaging.saaj', name: 'saaj-impl', version: '1.5.2'
 	implementation group: 'org.jdom', name: 'jdom2', version: '2.0.6'
 
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
+	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.11.0'
+
+
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '2.7.0'
 
