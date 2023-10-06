@@ -9,7 +9,7 @@ public class ItgAtmMsgRouter {
     public ItgSvfeCalcFeeAmtDto parseMsg(String xml){
         ItgAtmXmlParserFactory factory = new ItgAtmXmlParserFactory();
         ItgAtmXmlParser parser = factory.parser(ItgAtmParsingTypes.JACKSON);
-        return parseMsg(xml);
+        return parser.parseMsg(xml);
     }
 
 

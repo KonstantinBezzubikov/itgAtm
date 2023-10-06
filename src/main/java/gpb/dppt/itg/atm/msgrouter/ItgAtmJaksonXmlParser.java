@@ -13,7 +13,8 @@ public class ItgAtmJaksonXmlParser implements ItgAtmXmlParser {
     @Override
     public ItgSvfeCalcFeeAmtDto parseMsg(String soapStr) {
         XmlMapper xmlMapper = new XmlMapper();
-        ItgAtmEnvelopeDto envelope = new ItgAtmEnvelopeDto();
+       // ItgAtmEnvelopeDto envelope = new ItgAtmEnvelopeDto();
+        ItgAtmEnvelopeDto envelope = ItgAtmEnvelopeDto.builder().build();
         try {
             envelope=xmlMapper.readValue(soapStr, ItgAtmEnvelopeDto.class);
 
